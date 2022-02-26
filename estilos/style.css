@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Codigo para el Menu*/
+
+body {
+    background-color: #219F94;
+    padding: 90px 20px 0;
+}
+
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    background-color:#5a6978;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    }
+
+.logo {
+    color: #ffffff ;
+    font-size: 30px;
+    padding: 0 40px;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+.menu__btn{
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+.menu__items {
+    display: flex; 
+    color: #ffffff;    
+    margin-right: 40px;
+    text-transform: uppercase;
+    }
+
+.menu__items li {
+    list-style: none;
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max max-content;
+}
+
+.menu__items li a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.menu__items li:hover, li.active {
+    background-color: #343f4b;
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+
+body {
+    padding top: 70px
+}
+
+header {
+    height: 60px;
+}
+
+.menu {
+    background-color:#5a6978;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    }
+
+.logo {
+    color: #ffffff ;
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.menu__btn{
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+.menu__items {
+line-height: 70px;
+}
+
+.menu__items li {
+    list-style: none;
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max max-content;
+}
+
+.menu__items li a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+
+}
+/*Codigo para el Footer*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(52,63,75);
+    border-top: 2px solid #fff;
+    text-transform: uppercase;
+    color: #ffffff;
+}
